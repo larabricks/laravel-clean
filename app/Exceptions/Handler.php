@@ -3,6 +3,8 @@
 namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Support\Facades\DB;
+use Larabricks\OutputBuilder\OutputBuilder;
 use Throwable;
 
 class Handler extends ExceptionHandler
@@ -35,7 +37,21 @@ class Handler extends ExceptionHandler
     public function register()
     {
         $this->reportable(function (Throwable $e) {
-            //
+            // auto rollback of all opened transactions
+            while ( DB::transactionLevel() > 0 ) DB::rollBack();
         });
     }
+
+    /**
+     *  Method that render Unauthorized Response
+     * @param $request
+     * @param Throwable $e
+     * @return mixed
+     */
+    public function render($request, Throwable $e): mixed
+    {
+        OutputBuilder::$code = ExceptionMapper::map($e);
+        return OutputBuilder::build();
+    }
+
 }

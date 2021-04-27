@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a16c3c541bd99241cab1c21ce8e83ac",
+    "content-hash": "d2f46df79581a6261bffd6fb31fb8750",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -855,6 +855,47 @@
                 "source": "https://github.com/guzzle/psr7/tree/1.8.2"
             },
             "time": "2021-04-26T09:17:50+00:00"
+        },
+        {
+            "name": "larabricks/output-builder",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/larabricks/output-builder.git",
+                "reference": "35f774cedd0f399929114307ee0750d19bd436a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/larabricks/output-builder/zipball/35f774cedd0f399929114307ee0750d19bd436a4",
+                "reference": "35f774cedd0f399929114307ee0750d19bd436a4",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^8.12",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Larabricks\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alessio Farinelli",
+                    "email": "alessio.farinelli.developer@gmail.com"
+                }
+            ],
+            "description": "test",
+            "support": {
+                "issues": "https://github.com/larabricks/output-builder/issues",
+                "source": "https://github.com/larabricks/output-builder/tree/0.1"
+            },
+            "time": "2021-04-27T08:44:23+00:00"
         },
         {
             "name": "laravel/framework",
@@ -7335,7 +7376,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.3|^8.0"
+        "php": "^8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
