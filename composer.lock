@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "315c56805f3f6047a18beee0b70ca8a8",
+    "content-hash": "c15f41c8a6c49393608f2e4b1f1c9d32",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -7372,7 +7372,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "larabricks/output-builder": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

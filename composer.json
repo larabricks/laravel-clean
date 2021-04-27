@@ -11,7 +11,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
-        "larabricks/output-builder": "^0.4"
+        "larabricks/output-builder": "@dev"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
