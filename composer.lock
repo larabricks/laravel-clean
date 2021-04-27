@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "960226cce819c57e95c7386804b11d0f",
+    "content-hash": "315c56805f3f6047a18beee0b70ca8a8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -858,16 +858,16 @@
         },
         {
             "name": "larabricks/output-builder",
-            "version": "0.3",
+            "version": "0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larabricks/output-builder.git",
-                "reference": "3d1fb671fb14f1ce774e65586e33ab9370705a38"
+                "reference": "63aa90a4eb0d9ff41c265b6e6be1d31874f8016d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larabricks/output-builder/zipball/3d1fb671fb14f1ce774e65586e33ab9370705a38",
-                "reference": "3d1fb671fb14f1ce774e65586e33ab9370705a38",
+                "url": "https://api.github.com/repos/larabricks/output-builder/zipball/63aa90a4eb0d9ff41c265b6e6be1d31874f8016d",
+                "reference": "63aa90a4eb0d9ff41c265b6e6be1d31874f8016d",
                 "shasum": ""
             },
             "require": {
@@ -893,9 +893,9 @@
             "description": "test",
             "support": {
                 "issues": "https://github.com/larabricks/output-builder/issues",
-                "source": "https://github.com/larabricks/output-builder/tree/0.3"
+                "source": "https://github.com/larabricks/output-builder/tree/0.4"
             },
-            "time": "2021-04-27T09:03:44+00:00"
+            "time": "2021-04-27T09:51:35+00:00"
         },
         {
             "name": "laravel/framework",
